@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.1306474349/PATH/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.1306474349/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.1306474349/PATH/value=${CYGWIN_HOME}\\bin;C\:/Program Files/Java/jdk-13.0.1/bin/server;C\:/Program Files/Java/jdk-13.0.1/bin;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\PuTTY\\;C\:\\Program Files\\Perforce;C\:\\WINDOWS\\System32\\OpenSSH\\;C\:\\Program Files\\Git\\cmd;C\:\\Users\\Win10 Pro x64\\Anaconda3;C\:\\Users\\Win10 Pro x64\\Anaconda3\\Scripts;C\:\\Users\\Win10 Pro x64\\Anaconda3\\Library\\bin;C\:\\Users\\Win10 Pro x64\\AppData\\Local\\Microsoft\\WindowsApps;;C\:\\WINDOWS\\system32
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.1306474349/append=true
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.1306474349/appendContributed=true

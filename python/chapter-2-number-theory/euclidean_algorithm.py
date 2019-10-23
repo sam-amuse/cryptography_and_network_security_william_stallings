@@ -1,6 +1,6 @@
 '''
 Created on 23 oct. 2019
 
-@author: Win10 Pro x64
+@author: Samir BEN DODO
 '''
-print("test commit github repo")
+print("Hello World Python")
