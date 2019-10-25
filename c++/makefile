@@ -1,4 +1,4 @@
 all: main.o
 clean : rm main.o
 main.o:
-	g++ src/euclidean_algorithm.cpp
+	g++ chapter-2-number-theory/euclidean_algorithm.cpp
