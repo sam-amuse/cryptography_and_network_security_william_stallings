@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : c++.cpp
+// Name        : euclidean_algorithm.cpp
 // Author      : Samir BEN DODO
 // Version     :
 // Copyright   : 

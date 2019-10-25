@@ -3,8 +3,6 @@ Created on 23 oct. 2019
 Euclidean algorithm  is procedure to determine the greatest common divisor or two positive integers
 @author: Samir BEN DODO
 '''
-from math import floor
-
 print("Enter A and B to find GCD(A,B)")
 
 a = int( input("A = "))

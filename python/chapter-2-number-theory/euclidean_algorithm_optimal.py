@@ -1,6 +1,6 @@
 '''
 Created on 23 oct. 2019
-Euclidean algorithm  is procedure to determine the greatest common divisor or two positive integers
+Optimal version of the Euclidean algorithm (code compact)
 @author: Samir BEN DODO
 '''
 

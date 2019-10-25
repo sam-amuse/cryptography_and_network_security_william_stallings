@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : c.c
+ Name        : euclidean_algorithm.c
  Author      : Samir BEN DODO
  Version     :
  Copyright   : 
