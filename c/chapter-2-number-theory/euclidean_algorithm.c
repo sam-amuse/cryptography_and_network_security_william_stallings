@@ -23,7 +23,7 @@ int euclidean_gcd(int a, int b);
 
 int euclidean_gcd(int a, int b)
 {
-	_DEBUG("A = %d , B = %d \n",a,b);
+	//_DEBUG("A = %d , B = %d \n",a,b);
 	int a_tmp =a;
 	int b_tmp =b;
 	int temp;
@@ -38,23 +38,16 @@ int euclidean_gcd(int a, int b)
 
 }
 
-int recursive_euclidean_gcd(int a, int b)
+int recursive_euclidean_gcd(int a, int b, int level)
 {
-	_DEBUG("A = %d , B = %d \n",a,b);
-	int a_tmp =a;
-	int b_tmp =b;
+	if(level == 0){
+		_DEBUG("recursive euclidian GCD(%d,%d) = ",a,b);
+	}
 
 	if(b == 0)
 	{
-		_DEBUG("recursive euclidian GCD(%d,%d) = %d \n",a_tmp,b_tmp,a);
+		_DEBUG("%d \n",a);
 		return a;
 	}
-	return recursive_euclidean_gcd(b,a%b);
-}
-
-
-int main(void) {
-	euclidean_gcd(234,51);
-	recursive_euclidean_gcd(234,51);
-	return EXIT_SUCCESS;
+	return recursive_euclidean_gcd(b,a%b,level+1);
 }
