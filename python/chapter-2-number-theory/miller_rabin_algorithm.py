@@ -19,6 +19,11 @@ a^r != 1 and -1 (mod n)
 AND 
 a^(r*2^j) != -1 (mod n) for some j such as 0 =< j =< s-1
 
+/!\ the modular exponentiation is done in the pow function, using 
+ exponentiation by squaring method / square-and-multiply / binary exponentiation
+ for performance (Left-to-right binary exponentiation) :
+https://github.com/python/cpython/blob/master/Objects/longobject.c
+
 '''
 from random import *
 
@@ -85,20 +90,20 @@ def inv_miller_rabin(n, k, verbose):
 #k = 2
 #n = 10000139
 k = 10
-n = 561
-verbose = False
+n = 1777
+verbose = True
 # With k =10 , a small Carmichael number such as 561 is detected as composite
 # but with a smaller k (ie 2), it can be wrongly considered prime
 # This illustrates the probabilistic behavior of the Miller-Rabin algorithm
 print ("n = ",n,", k=",k)
 prime = miller_rabin(n, k,verbose)
 if prime == True :
-    print ("my program : n is prime ")
+    print ("miller-rabin : n is prime ")
 elif prime == False:
-    print ("my program : n is not prime (composite)")
+    print ("miller-rabin : n is not prime (composite)")
   
 inv_prime = inv_miller_rabin(n, k,verbose)
 if prime == True :
-    print ("my inv program : n is prime ")
+    print ("miller-rabin (inv) : n is prime ")
 elif prime == False:
-    print ("my inv program : n is not prime (composite)") 
+    print ("miller-rabin (inv) : n is not prime (composite)") 
