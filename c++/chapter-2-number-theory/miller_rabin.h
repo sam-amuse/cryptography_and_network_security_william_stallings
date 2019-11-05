@@ -9,8 +9,9 @@
 #ifndef MILLER_RABIN_H_
 #define MILLER_RABIN_H_
 
-void miller_rabin(unsigned long n, unsigned long k);
 
-#endif /* MILLER_RABIN_H_*/
+void miller_rabin(unsigned long n, int k);
+
+#endif /* MILLER_RABIN_H_ */
 
 

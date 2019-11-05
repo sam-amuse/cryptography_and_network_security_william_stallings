@@ -7,10 +7,14 @@
 
 #include "euclidean_algorithm.h"
 #include "extended_euclidean_algorithm.h"
+#include "miller_rabin.h"
+
 
 int main() {
 	euclidean_gcd(1914,899);
 	recursive_euclidean_gcd(1914,899);
 	eea_algorithm(1914,899);
+	miller_rabin(1000000099	,10); // composite
+	miller_rabin(1000000087	,10); // prime
 	return 0;
 }
